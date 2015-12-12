@@ -1,0 +1,388 @@
+/******* GENERAL DOCUMENT STYLE ********/
+body {
+	background-color: #fff;
+	font: normal normal 13px 'Lato', sans-serif;
+	color: #343434;
+	line-height: 1.5;
+}
+
+h1 {
+	font: normal normal 22px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding: 4px 0;
+}
+
+h2 {
+    font: normal normal 10px 'Montserrat', sans-serif;
+    color: #FCB415;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font: normal normal 10px 'Montserrat', sans-serif;
+    color: #999999;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font: normal bold 10px 'Montserrat', sans-serif;
+    color: #989898;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h5 {
+	font: bold 12px 'Montserrat', sans-serif;
+    color: #343434;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 12px;
+}
+
+p {
+	color: #343434;
+	font: normal normal 13px 'Lato', sans-serif;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+a {
+    text-decoration: none;
+ }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/******* CUSTOM RESUABLE CLASSES ********/
+
+
+
+
+/******* DOCUMENT STRUCTURE CLASSES ********/
+.topmenu {
+	overflow: hidden;
+	width: 100%;
+	color: black;
+	padding: 20px 0;
+}
+	.logo {
+		float: left;
+	}
+		.logo img {
+			height: 36px;
+			padding: 0 20px;
+		}
+
+	.nav {
+		float: right;
+	}
+		.mainmenu {
+			overflow: hidden;
+		}		
+
+			.mainmenu li {
+				padding: 0 1em;
+				line-height: 3em;
+				text-align: right;
+			}
+			.mainmenu li a {
+				color: #343434;
+				font: normal 16px 'Montserrat', sans-serif;
+				text-transform: uppercase;
+				text-decoration: none;
+				vertical-align: middle;
+			}
+
+			.mainmenu li.text {
+				display: none;
+			}
+
+			.mainmenu li.icom {
+				display: inline;
+			}
+
+			.mainmenu a.selected {
+    			color: gray;
+    			text-decoration: underline;
+			}
+
+.main > header {
+	display: initial;
+}
+
+	.header {
+		background-image: url('../img/heading.jpg');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding: 10px;
+	    background-position: center;
+	}
+
+		.heading1 {
+		    font: normal 58px 'Montserrat', sans-serif;
+		    color: white;
+		    text-transform: uppercase;
+		    text-align: center;
+		    text-decoration: none;
+		    line-height: 85%;
+		    letter-spacing: -1px;
+		    padding-top: 40px;
+		}
+
+		.heading2 {
+			font: normal normal 13px 'Lato', sans-serif;
+		    color: white;
+		    text-align: center;
+		    text-decoration: none;
+		    padding-bottom: 30px;
+		}
+
+.container {
+	margin: 0 20px 20px 20px;
+}
+
+	.post {
+	    margin-top: 40px;
+	}
+
+		.post-header {
+		    text-align: center;
+		    padding-bottom: 20px;
+		}
+
+		.post-entry {
+		    text-align: justify;
+		    margin: 10px 0;
+		}
+
+		.post-entry p {
+		    margin-bottom: 20px;
+		    text-align: justify; 
+		    text-align: right;
+		}
+
+		.post-entry a.more-link {
+		    font: normal bold 10px 'Montserrat', sans-serif;
+		    color: #343434;
+		    text-transform: uppercase;
+		    text-align: left;
+		    letter-spacing: 2px;
+		    margin-top: 20px;
+		    display: inline-block;
+		}
+
+		.post-entry a.more-link:hover {
+		    color: #FCB415;
+		}
+
+.section {
+
+}
+
+	.bar-title {
+	    background-color: #F8F8F8;
+	    margin: 30px 0 18px 0;
+	    height: 40px;
+	}
+
+	.social-networks {
+		text-align: center;
+	}
+
+		.social-networks li {
+		    margin: 4px 3px;
+		    border: 1px solid #FCB415;
+		    padding: 25px 0;
+		    text-align: center;
+		    width: 47%;
+		    height: 100px;
+		    display: inline-block;
+		}
+
+		.social-networks i {
+		    width: 32px;
+		    height: 32px;
+		    margin: 0 auto;
+		    line-height: 32px;
+		    text-align: center;
+		    font-size: 18px;
+		    color: #FCB415;
+		}
+
+		.social-networks li:hover * {
+		    color: #343434;
+		}
+
+	.text-tag li {
+	    margin: 3px 2px;
+	    border: 1px solid #FCB415;
+	    padding: 10px 15px;
+	    text-align: center;
+	    display: inline-block;
+	}
+
+	.text-tag li:hover * {
+	    color: #343434
+	}
+
+	.recent-post .side-image {
+	    float: left;
+	    margin-right: 14px;
+	}
+
+	.recent-post .side-text *{
+	    overflow: hidden;
+	    text-align: left;
+	}
+
+	form {
+		padding: 30px 20px 30px 20px;
+	}
+
+	.subscribe {
+		background-image: url('../img/footer.jpg');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
+
+		.subscribe p {
+			font-size: 20px;
+			text-align: center;
+			color: white;
+			text-transform: uppercase;
+
+		}
+
+		.subscribe input[type=text] {
+		    background-color: white;
+		    border: 1px white solid;
+		    padding: 16px 0 16px 20px;
+		    font-size: 10px;
+		    letter-spacing: 2px;
+		    color: #888;
+		    width: 100%;
+		    margin-bottom: 10px;
+		}
+
+		.subscribe input[type=text]:hover {
+		    border-color: #FCB415;
+		}
+
+		.subscribe input[type=text]:focus {
+		    border-color: #FCB415;
+		    outline: none;
+		}
+
+		.subscribe button {
+			background-color: #FCB415;
+		    border: 1px #FCB415 solid;
+		    font-size: 10px;
+		    color: white;
+		    text-transform: uppercase;
+		    padding: 16px 0;
+		    letter-spacing: 2px;
+		    width: 100%;
+		    margin-bottom: 10px;
+		    outline: none;
+		}
+
+		.subscribe button:hover {
+		    background-color: #FFE0A1;
+		    /*color: #FFE0A1;*/
+		}
+
+		.subscribe button:focus {
+		    background-color: white;
+		    color: #007fff;
+		}
+
+
+.clearfix {
+    clear: both;
+}
+
+.footer-social {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-social a i {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #343434;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-social span {
+	font: bold 12px 'Montserrat', sans-serif;
+    color: #343434;
+    padding-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: none;
+}
+
+.copyright {
+	font: bold 10px 'Montserrat', sans-serif;
+    color: #9B9B9B;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px;
+    border-top: 1px #EEEEEE solid;
+}
+
+
+/******* ABOUT ME CSS ********/
+
+.article {
+	padding-top: 30px;
+	text-align: justify;
+}
+
+.article blockquote {
+	font-style: italic;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    border-left: 6px solid #fcb415;
+}
+
+.article blockquote p {
+    font-size: 15px;
+    font-style: italic;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.article blockquote .author {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.header-about {
+		background-image: url('../img/aboutheading.jpg');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding: 90px;
+	    background-position: center;
+	}
+

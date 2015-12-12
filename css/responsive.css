@@ -1,0 +1,163 @@
+@media (min-width: 768px) {
+
+	body {
+		font-size: 15px;
+	}
+
+	.mainmenu li.text {
+		display: inline;
+	}
+
+	.mainmenu li.icon {
+		display: none;
+	}
+
+	.header {
+		padding: 80px;
+	}
+
+	.heading2 {
+		font-size: 18px;
+	}
+
+	.post-float-left {
+		float: left;
+		width: 50%;
+		padding-right: 15px;
+	}
+
+	.post-float-right {
+		float: right;
+		width: 50%;
+		padding-left: 15px;
+	}
+
+	.social-networks li {
+    	width: 46%;
+	}
+
+	.recent-post li {
+    	width: 48%;
+    	display: inline-block;
+	}
+
+	.subscribe-float-left {
+		float: left;
+		width: 60%;
+		padding-right: 10px;
+	}
+
+	.subscribe-float-right {
+		float: right;
+		width: 40%;
+		padding-left: 10px;
+	}
+
+	.footer-social span {
+    	display: inline;
+	}
+
+/*about css*/
+
+	.article blockquote {
+    	margin-left: 98px;
+	}
+
+	.article p {
+		font-size: 15px;
+	}
+
+	.article blockquote p {
+    font-size: 18px;
+	}
+}
+
+@media (min-width: 960px) { 
+
+	h1 {
+		font-size:25px;
+		line-height: 25px;
+	}
+
+	h2 {
+		font-size: 11px;
+	}
+
+	h3 {
+		font-size: 11px;
+	}
+
+	h5 {
+		font-size: 13px;
+	}
+
+	.header {
+		padding: 80px;
+	}
+
+	.heading1 {
+		font-size: 70px;
+	}
+
+	.heading2 {
+		font-size: 20px;
+	}	
+
+	.recent-post li {
+    width: 100%;
+	}
+
+
+	.subscribe-float-left {
+		padding-left: 50px;
+	}
+
+	.subscribe-float-right {
+		padding-right: 50px;
+	}
+
+	.main-float-left {
+		float: left;
+		width: 70%;
+		padding-right: 15px;
+	}
+
+	.main-float-right{
+		float: right;
+		width: 30%;
+		padding-left: 15px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.topmenu {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.heading1 {
+		font-size: 80px;
+	}
+
+	.heading2 {
+		font-size: 24px;
+	}	
+
+	.inline {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
